@@ -26,3 +26,7 @@ I assumed that for the additional minutes and seconds to be displayed you would 
 
 I would normally get conformation on something like this however I was working on this Friday night when I spotted it and I'm unable to work on it Monday when the deadline for submission is.
 All the test cases on the assessment spec are included in the FormatterTest.java file. Only the situation of the line talked about here is different.
+
+There was also one other thing which was the case of input in the format of [FT] 0:00:000 which would return 00:00 FULL_TIME. I also assumed this was valid as no information was given on bounded time that had to be meet for under time just overtime.
+The reason for this logic was that a game could be called off before it started or during the match so a record of FT not been at 90 minutes could happen.
+I don't know if this is how it would be recorded as I know nothing about matches/sports.
