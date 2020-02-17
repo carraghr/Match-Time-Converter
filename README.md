@@ -1,4 +1,4 @@
-# Paddy Power Coding Assessment
+# 
 ## Match Time Converter
 
 ### How to build project
